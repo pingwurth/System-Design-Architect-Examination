@@ -13,7 +13,7 @@ D. 客户端-服务器架构
 
 **步骤 1：运行扫描脚本**
 ```bash
-python /home/ping/gitProjects/my/note/System-Design-Architect-Examination/.qoder/skills/architect-for-soft-exam-assistant/scripts/scan_markdown.py /home/ping/gitProjects/my/note/System-Design-Architect-Examination/教材/系统架构设计师教程/chapters -o /tmp/content.index -v
+python <SKILL_DIR>/scripts/scan_markdown.py ./教材/系统架构设计师教程/chapters -o /tmp/content.index -v
 ```
 
 **步骤 2：分析题目关键词**
@@ -68,7 +68,7 @@ python /home/ping/gitProjects/my/note/System-Design-Architect-Examination/.qoder
 
 **步骤 1：运行扫描脚本**
 ```bash
-python /home/ping/gitProjects/my/note/System-Design-Architect-Examination/.qoder/skills/architect-for-soft-exam-assistant/scripts/scan_markdown.py /home/ping/gitProjects/my/note/System-Design-Architect-Examination/教材/系统架构设计师教程/chapters -o /tmp/content.index -v
+python <SKILL_DIR>/scripts/scan_markdown.py ./教材/系统架构设计师教程/chapters -o /tmp/content.index -v
 ```
 
 **步骤 2：分析题目关键词**
@@ -174,7 +174,7 @@ python /home/ping/gitProjects/my/note/System-Design-Architect-Examination/.qoder
 
 **步骤 1：运行扫描脚本**
 ```bash
-python /home/ping/gitProjects/my/note/System-Design-Architect-Examination/.qoder/skills/architect-for-soft-exam-assistant/scripts/scan_markdown.py /home/ping/gitProjects/my/note/System-Design-Architect-Examination/教材/系统架构设计师教程/chapters -o /tmp/content.index -v
+python <SKILL_DIR>/scripts/scan_markdown.py ./教材/系统架构设计师教程/chapters -o /tmp/content.index -v
 ```
 
 **步骤 2：分析题目关键词**
@@ -368,7 +368,7 @@ python /home/ping/gitProjects/my/note/System-Design-Architect-Examination/.qoder
 
 **步骤 1：运行扫描脚本**
 ```bash
-python /home/ping/gitProjects/my/note/System-Design-Architect-Examination/.qoder/skills/architect-for-soft-exam-assistant/scripts/scan_markdown.py /home/ping/gitProjects/my/note/System-Design-Architect-Examination/教材/系统架构设计师教程/chapters -o /tmp/content.index
+python <SKILL_DIR>/scripts/scan_markdown.py ./教材/系统架构设计师教程/chapters -o /tmp/content.index
 ```
 
 **步骤 2：关键词检索**
@@ -380,7 +380,7 @@ python /home/ping/gitProjects/my/note/System-Design-Architect-Examination/.qoder
 **步骤 4：读取具体内容**
 ```bash
 # 读取相关行的内容
-sed -n '120,150p' /home/ping/gitProjects/my/note/System-Design-Architect-Examination/教材/系统架构设计师教程/chapters/第8章-系统质量属性与架构评估.md
+sed -n '120,150p' ./教材/系统架构设计师教程/chapters/第8章-系统质量属性与架构评估.md
 ```
 
 **步骤 5：生成答案**
@@ -413,7 +413,7 @@ ATAM（Architecture Tradeoff Analysis Method，架构权衡分析法）是一种
 
 **步骤 1：运行扫描脚本**
 ```bash
-python /home/ping/gitProjects/my/note/System-Design-Architect-Examination/.qoder/skills/architect-for-soft-exam-assistant/scripts/scan_markdown.py /home/ping/gitProjects/my/note/System-Design-Architect-Examination/教材/系统架构设计师教程/chapters -o /tmp/content.index -v
+python <SKILL_DIR>/scripts/scan_markdown.py ./教材/系统架构设计师教程/chapters -o /tmp/content.index -v
 ```
 
 **步骤 2：分析题目关键词**
@@ -527,7 +527,7 @@ python /home/ping/gitProjects/my/note/System-Design-Architect-Examination/.qoder
 
 **步骤 1：运行扫描脚本**
 ```bash
-python /home/ping/gitProjects/my/note/System-Design-Architect-Examination/.qoder/skills/architect-for-soft-exam-assistant/scripts/scan_markdown.py /home/ping/gitProjects/my/note/System-Design-Architect-Examination/教材/系统架构设计师教程/chapters -o /tmp/content.index
+python <SKILL_DIR>/scripts/scan_markdown.py ./教材/系统架构设计师教程/chapters -o /tmp/content.index
 ```
 
 **步骤 2：检索相关知识点**
