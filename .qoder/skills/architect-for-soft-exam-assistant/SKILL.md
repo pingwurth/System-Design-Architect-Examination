@@ -12,6 +12,15 @@ description: 为《系统架构设计师考试》提供题目解析和知识点�
 2. 根据题目内容检索相关知识点
 3. 提供准确答案和详细解析
 
+## Running scripts
+
+Before invoking any bundled script:
+
+1. Identify the directory containing this `SKILL.md`; call it `SKILL_DIR`.
+2. Run scripts using paths joined from `SKILL_DIR`, for example:
+   `python <SKILL_DIR>/scripts/build_index.py`
+3. Do not use `./scripts/...` unless the shell has first changed into `SKILL_DIR`.
+
 ## 工作流程
 
 ### 步骤 1：扫描教材章节
@@ -19,7 +28,7 @@ description: 为《系统架构设计师考试》提供题目解析和知识点�
 当用户提供考试题目时，首先运行扫描脚本：
 
 ```bash
-python /home/ping/gitProjects/my/note/System-Design-Architect-Examination/.qoder/skills/architect-for-soft-exam-assistant/scripts/scan_markdown.py /home/ping/gitProjects/my/note/System-Design-Architect-Examination/教材/系统架构设计师教程/chapters -o /tmp/content.index -v
+python <SKILL_DIR>/scripts/scan_markdown.py ./教材/系统架构设计师教程/chapters -o /tmp/content.index -v
 ```
 
 ### 步骤 2：读取扫描结果
